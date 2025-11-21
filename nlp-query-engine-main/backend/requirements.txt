@@ -1,0 +1,44 @@
+# FastAPI and web framework
+fastapi==0.118.0
+uvicorn[standard]==0.32.1
+python-multipart==0.0.12
+
+# Database and ORM
+sqlalchemy==2.0.36
+psycopg2-binary==2.9.10
+alembic==1.14.0
+
+# AI and ML
+openai==2.1.0
+sentence-transformers==3.3.1
+faiss-cpu==1.8.0
+numpy<2.0.0
+pandas==2.3.3
+
+# Document processing
+PyPDF2==3.0.1
+python-docx==1.1.2
+python-magic==0.4.27
+
+# HTTP and networking
+httpx==0.28.1
+requests==2.32.3
+
+# Environment and configuration
+python-dotenv==1.0.1
+pydantic==2.11.9
+pydantic-settings==2.6.1
+
+# Caching and performance
+redis==5.2.0
+aioredis==2.0.1
+
+# Development and testing
+pytest==8.3.4
+pytest-asyncio==0.24.0
+black==24.10.0
+flake8==7.1.1
+
+# Additional utilities
+click==8.3.0
+colorama==0.4.6
